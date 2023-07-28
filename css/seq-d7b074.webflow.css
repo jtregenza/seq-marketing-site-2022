@@ -17,6 +17,7 @@
   
 }
 
+
 body.light {
   --background: var(--light-bg);
   --font-color: var(--light-font-color);
@@ -28,6 +29,10 @@ body.light .invert {
   filter: invert(100%);
 }
 
+::selection {
+  background: var(--accent-color);
+  color: var(--background);
+}
 
 
 body {
