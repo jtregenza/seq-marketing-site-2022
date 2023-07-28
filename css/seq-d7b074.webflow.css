@@ -1098,7 +1098,14 @@ body.light img.color {
 }
 
 .div-block-12, .div-block-13 {
+  margin: 0 auto;
   margin-bottom: 2rem;
+  max-width: 75rem;
+}
+
+.article-container, .rich-text-block-2{
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .image-9, .image-10 {
