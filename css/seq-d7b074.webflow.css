@@ -186,6 +186,7 @@ a:hover {
 
 .menu-link:hover {
   background-color: var(--color-fade);
+  text-decoration: none;
 }
 
 .menu-link.sml {
@@ -288,7 +289,7 @@ body.light .menu-link.light img {
   display: flex;
 }
 
-.text-span, .text-span-2 {
+.text-span, .text-span-2, .highlight {
   color: var(--accent-color);
 }
 
@@ -396,6 +397,12 @@ circle {
   letter-spacing: .02em;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+.main-home-cta:hover,
+a:hover .text-block-2,
+.solutions-card-button:hover {
   text-decoration: none;
 }
 
@@ -580,6 +587,8 @@ circle {
   z-index: 2;
 }
 
+
+
 .solutions-card .solutions-card-button{
   border-color: #ef4644;
   color: white;
@@ -645,6 +654,22 @@ circle {
   padding: 0;
   display: grid;
   overflow: hidden;
+  
+}
+.superlong .card-image img,
+.long-reverse .card-image img,
+.long .card-image img {
+  transition: transform 0.4s ease-in-out;
+}
+.long-reverse .card-image img {
+  transform: translate(-150%);
+}
+
+
+.superlong:hover .card-image img,
+.long-reverse:hover .card-image img,
+.long:hover  .card-image img {
+  transform: translate(0%);
 }
 
 .heading-3 {
@@ -705,6 +730,8 @@ background-color: #227198;;
   background-color: #3c4346;
   flex: 0 auto;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-content.long {
@@ -793,12 +820,16 @@ background-color: #227198;;
   background-color: var(--background);
 }
 
-.rich-text-block-2 {
+/* .rich-text-block-2 {
   width: 100%;
   max-width: 80ch;
   margin-top: 0;
   font-family: Source Sans Pro, sans-serif;
   line-height: 1.2;
+} */
+
+ul, ol {
+  list-style-type: none;
 }
 
 .section-3 {
@@ -1140,7 +1171,7 @@ body.light img.color {
 .article-container, .rich-text-block-2{
   position: relative;
   z-index: 2;
-  max-width: 65rem;
+  /* max-width: 65rem; */
   margin: 0 auto;
   margin-left: 0;
 }
@@ -1183,6 +1214,41 @@ body.light img.color {
 .article-container li + li{
   margin-top: 2rem;
 }
+
+.article-container .left-side {
+  width: 60%;
+  margin-right:auto;
+}
+.article-container .right-side {
+  width: 50%;
+  margin-left:auto;
+}
+
+.article-container .image-2-col {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 479px) {
+  .article-container .image-2-col {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  
+}
+.image-2-col .image-container {
+  height: 60%;
+}
+.image-2-col .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .list-4 {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
