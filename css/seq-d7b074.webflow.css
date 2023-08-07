@@ -938,6 +938,7 @@ ul, ol {
   width: 40%;
   min-width: 328px;
   background-color: #0e2029;
+  color: white;
   position: absolute;
   right: 0;
   transform: translate(0, -200%);
@@ -959,7 +960,20 @@ ul, ol {
   margin-top: auto;
   padding: 50px 30px 15px;
   position: relative;
+  z-index: 2;
 }
+
+.contact {
+  margin-top: 3rem; 
+}
+
+.contact form {
+  padding: 1rem;
+  background: rgba(255, 255, 255, .05);
+  border-radius: 4px;
+}
+
+
 
 .container-3 {
   width: 100%;
@@ -1323,9 +1337,9 @@ body.light img.color {
   color: #ef4644;
 }
 
-.paragraph-11, .heading-16, .paragraph-12, .paragraph-13, .heading-17, .paragraph-14 {
+/* .paragraph-11, .heading-16, .paragraph-12, .paragraph-13, .heading-17, .paragraph-14 {
   width: 60%;
-}
+} */
 
 .paragraph-15 {
   width: 50%;
@@ -1580,6 +1594,7 @@ body.light img.color {
   }
 
   .section-3 {
+    padding-top: 10rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1606,6 +1621,12 @@ body.light img.color {
 
   .heading-13, .heading-14, .heading-15 {
     font-size: 1.5rem;
+  }
+
+  .article-container .left-side, .article-container  .right-side {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
   }
 }
 
@@ -1759,7 +1780,7 @@ body.light img.color {
   font-weight: 600;
 	align-self: flex-start;
 	align-items: center;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-bottom: 0;
 	padding: 0 2rem;
 	text-decoration: none;
@@ -1771,6 +1792,7 @@ body.light img.color {
 
 .floating-button{
   background: var(--background);
+  margin-top: 0;
 }
 .floatingBtn-wrapper {
   position: fixed;
