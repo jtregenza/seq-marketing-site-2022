@@ -1680,3 +1680,150 @@ body.light img.color {
 }
 
 
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -moz-box;
+  display: none;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  -moz-box-align: end;
+  align-items: flex-end;
+  background: rgba(0,0,0,.4);
+  z-index: 20;
+}
+
+.modalHeader {
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-stretch: semi-expanded;
+  font-weight: 800;
+}
+
+.modal {
+  color: var(--font-color);
+  margin: 2rem;
+  z-index: 21;
+  background-color: color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.4));
+  width: -moz-calc(100vw - 2em);
+  width: calc(100vw - 2em);
+  max-width: 480px;
+  padding: 1.5em 2em;
+  border-radius: 1.5em;
+  -webkit-box-shadow: 0 0.5em 1em color-mix(in srgb, var(--color-fade) 20%, var(--background));
+  box-shadow: 0 0.5em 1em color-mix(in srgb, var(--color-fade) 20%, var(--background));
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  backdrop-filter: blur(0.4em);
+  font-size: 1.2rem;
+}
+
+.modalHeader button {
+  background: transparent;
+}
+
+.popUpContact .form-button{
+	height: 3.2rem;
+	border: .125rem solid var(--accent-color);
+  color: var(--font-color);
+  background: transparent;
+	flex-direction: row;
+	flex: none;
+  text-transform: uppercase;
+  font-weight: 600;
+	align-self: flex-start;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding: 0 2rem;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.popUpContact .form-button:hover:before {
+  bottom: 0;
+}
+
+.popUpContact .form-button:before {
+  content: "";
+  background: var(--accent-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: -100%;
+  opacity: 1;
+  left: 0;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+
+
+.popUpContact .formItem {
+  width: 100%;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.popUpContact input[type=email]:placeholder-shown, 
+.popUpContact input[type=text]:placeholder-shown, 
+.popUpContact textarea:placeholder-shown {
+  padding-top: 1em;
+}
+
+
+
+.popUpContact input[type=email], .popUpContact input[type=text], .popUpContact textarea {
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: rgba(11,20,24,.8);
+  width: 100%;
+  padding: 1.8em 1em .8em 2.5em;
+  border: 0;
+  border-radius: .75em;
+  outline: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: padding 0.4s ease-in-out;
+}
+
+.popUpContact label.lblFloating {
+  color: #c2c2c2;
+  position: absolute;
+  top: 1em;
+  left: 2.5em;
+  pointer-events: none;
+  -webkit-transition: font-size 64ms ease-out,top 64ms ease-out,left 64ms ease-out;
+  -moz-transition: font-size 64ms ease-out,top 64ms ease-out,left 64ms ease-out;
+  transition: font-size 64ms ease-out,top 64ms ease-out,left 64ms ease-out;
+}
+
+
+.popUpContact input[type=email]::placeholder,
+.popUpContact input[type=text]::placeholder,
+.popUpContact textarea::placeholder {
+  color: transparent;
+}
+
+.popUpContact input[type=email]:not(:placeholder-shown)+label, 
+.popUpContact input[type=text]:not(:placeholder-shown)+label, 
+.popUpContact textarea:not(:placeholder-shown)+label {
+  font-size: .8em;
+  top: .65em;
+  left: 1em;
+}
+
