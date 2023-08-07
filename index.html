@@ -393,6 +393,24 @@
       <link rel="prefetch" href="https://storytale.studio">
     </div>
   </section>
+  <div class="floatingBtn-wrapper">
+  <button class="floating-button" onclick="showModal()">Contact Us  &nbsp; > </button>
+  <script>
+    const heroHeader = document.querySelector('.hero-splash');
+    
+    const moveBtn = (e) => {
+      const floatingBtn = document.querySelector('.floatingBtn-wrapper');
+      if(!e[0].isIntersecting) {
+        floatingBtn.classList.add('floating')
+      } else {
+        floatingBtn.classList.remove('floating')
+      }
+    }
+
+    const moveBtnIntersectionObs = new IntersectionObserver(moveBtn);
+    moveBtnIntersectionObs.observe(heroHeader);
+  </script>
+  </div>
   <div class="modalOverlay" id="modalOverlay">
 <div class="modal">
   <div class="modalHeader"><button onclick="closeModal()">x</button></div>

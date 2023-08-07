@@ -1729,7 +1729,8 @@ body.light img.color {
   background: transparent;
 }
 
-.popUpContact .form-button{
+.popUpContact .form-button,
+.floating-button{
 	height: 3.2rem;
 	border: .125rem solid var(--accent-color);
   color: var(--font-color);
@@ -1749,11 +1750,29 @@ body.light img.color {
 	overflow: hidden;
 }
 
-.popUpContact .form-button:hover:before {
+
+.floating-button{
+  background: var(--background);
+}
+.floatingBtn-wrapper {
+  position: fixed;
+  bottom: -100%;
+  right: 2rem;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+}
+
+.floatingBtn-wrapper.floating{
+  bottom: 5rem;
+}
+
+.popUpContact .form-button:hover:before,
+.floating-button:hover:before {
   bottom: 0;
 }
 
-.popUpContact .form-button:before {
+.popUpContact .form-button:before,
+.floating-button:before {
   content: "";
   background: var(--accent-color);
   width: 100%;
