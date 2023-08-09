@@ -6,7 +6,7 @@
   --dark-accent-color: #ef4644;
   --dark-color-fade: rgba(255, 255, 255, .2);
   --light-bg: #fff;
-  --light-font-color: #606162;
+  --light-font-color: #3f3f3f;
   --light-accent-color: #227198;
   --light-color-fade: rgba(0, 0, 0, .2);
 
@@ -17,11 +17,11 @@
   font-size: calc(0.7rem + ((1vw - 7.68px) * 0.7426));
 }
 
-.article-container p {margin-bottom: 1rem;}
+.article-container p {margin-bottom: 1rem; max-width: 80ch;}
 
 .article-container h1, .article-container h2, .article-container h3, .article-container h4, .article-container h5 {
   font-family: Inconsolata, monospace;
-  margin: 3rem 0 1.38rem;
+  margin: 2rem 0 1.38rem;
   font-weight: 900;
   line-height: 1.1;
 }
@@ -1303,27 +1303,47 @@ body.light img.color {
   color: #ef4644;
 }
 
-.heading-12, .paragraph-7 {
+/* .heading-12, .paragraph-7 {
   width: 60%;
-}
+} */
 
 .text-span-6, .text-span-7 {
   color: #ef4644;
 }
 
-.paragraph-8, .paragraph-9, .paragraph-10 {
+/* .paragraph-8, .paragraph-9, .paragraph-10 {
   width: 60%;
-}
+} */
 
-.div-block-19 {
-  background-color: #16303d;
-  border-radius: 1rem;
+.div-block-19, .full-width {
+  background: var(--font-color);
+  color: var(--background);
+  /* border-radius: 1rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding: 2rem;
+  margin-right: -4rem;
+  margin-left: -4rem;
+  padding: 2rem 4rem;
 }
 
-.div-block-18-copy {
+.div-block-19 h4,
+.full-width h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.article-container .center,
+.center-side,
+.center-side p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.div-block-18-copy, .four-col {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-rows: auto;
@@ -1331,6 +1351,11 @@ body.light img.color {
   grid-auto-columns: 1fr;
   margin-top: 1rem;
   display: grid;
+}
+
+.div-block-18-copy > div, .four-col > div {
+  display: grid;
+  grid-template-rows: auto;
 }
 
 .text-span-8 {
@@ -1341,25 +1366,25 @@ body.light img.color {
   width: 60%;
 } */
 
-.paragraph-15 {
-  width: 50%;
+/* .paragraph-15 {
+ width: 50%;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
   grid-template-columns: 1fr .5fr;
   grid-auto-columns: 1fr;
   display: block;
-}
+} 
 
 .paragraph-16, .paragraph-17 {
   width: 60%;
-}
+} */
 
 .text-span-9 {
   color: #ef4644;
 }
 
-.div-block-18-copy {
+.div-block-18-copy, .four-col {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-rows: auto;
@@ -1387,6 +1412,54 @@ body.light img.color {
 /* .heading-18, .heading-19, .paragraph-19, .paragraph-20, .paragraph-21, .list-5, .paragraph-22, .list-6, .paragraph-23, .heading-20, .paragraph-24, .heading-21, .paragraph-25, .paragraph-26, .paragraph-27, .paragraph-28, .paragraph-29, .list-7 {
   width: 60%;
 } */
+
+.list-5{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.list-5 li + li {
+  margin:0;
+}
+
+.list-5 li {
+  text-align: center;
+  border: 1px solid;
+  border-color: color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2));
+  border-radius: 0.125rem;
+  padding: 2rem 1rem;
+  box-shadow: 0px 4px 4px color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2));;
+}
+
+.list-5 li:last-of-type {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.list-5.alt li:last-of-type {
+  grid-column: unset;
+}
+
+
+.list-6 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center center;
+  gap: 2rem;
+
+}
+
+.list-6 li {
+  /* border: 1px solid; */
+  /* border-radius: 0.125rem; */
+  padding: 2rem 1rem;
+}
+
+.list-6 li + li {
+  margin:0;
+}
 
 @media screen and (max-width: 991px) {
   .logo {
@@ -1508,7 +1581,7 @@ body.light img.color {
     width: 100%;
   }
 
-  .div-block-18-copy {
+  .div-block-18-copy, .four-col {
     grid-template-columns: 1fr;
   }
 
@@ -1516,7 +1589,7 @@ body.light img.color {
     width: 100%;
   }
 
-  .div-block-18-copy {
+  .div-block-18-copy, .four-col {
     grid-template-columns: 1fr;
   }
 
@@ -1774,6 +1847,7 @@ body.light img.color {
 	border: .125rem solid var(--accent-color);
   color: var(--font-color);
   background: var(--background);
+  mix-blend-mode: color;
 	flex-direction: row;
 	flex: none;
   text-transform: uppercase;
@@ -1789,6 +1863,9 @@ body.light img.color {
 	overflow: hidden;
 }
 
+p + .floating-button {
+  margin-top: 2rem;
+}
 
 .floating-button{
   background: var(--background);
