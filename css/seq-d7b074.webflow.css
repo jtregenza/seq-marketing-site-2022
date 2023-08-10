@@ -352,6 +352,7 @@ body.light .div-block-5 {
   z-index: 2;
   margin-left: 18rem;
   margin-top: -5rem;
+  width: 100%;
 }
 
 .circuit-animation svg{
@@ -545,17 +546,7 @@ a:hover .text-block-2,
   overflow: hidden;
 }
 
-@media screen and (max-width: 880px){
-  .solutions-home {
-    grid-template: "Blurb Blurb" 30rem
-                 "Solution-1 Solution-2" 30rem
-                 ". Solution-2" 30rem
-                 "Solution-3 Solution-3" 30rem
-                 "Solution-4 Solution-4" 30rem
-                 "Solution-5 Solution-5" 30rem
-                 / 1fr 1fr;
-  }
-}
+
 
 .color-block {
   z-index: -1;
@@ -950,6 +941,7 @@ ul, ol {
 
 .heading-5 {
   margin-top: 0;
+  font-size: 1.5rem;
 }
 
 .footer-dark {
@@ -1016,17 +1008,17 @@ ul, ol {
 .title-small {
   text-transform: uppercase;
   margin-bottom: 12px;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.1;
 }
 
 .footer-link {
   color: var(--font-color);
   margin-top: 12px;
   margin-bottom: 6px;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.8rem;
+  line-height: 1.1;
   text-decoration: none;
 }
 
@@ -1065,6 +1057,7 @@ ul, ol {
 
 .image-6 {
   filter: invert();
+  width: 1.5rem;
 }
 body.light .image-6.invert {
   filter: unset;
@@ -1122,6 +1115,11 @@ body.light img.color {
   grid-template-columns: 1fr .75fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+
+.menu-link img {
+  width: 1.5rem;
 }
 
 .image-8 {
@@ -1258,27 +1256,29 @@ body.light img.color {
 
 .article-container .image-2-col {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
+  display: flex;
+  column-gap: 3rem;
   margin-top: 4rem;
 }
 
-@media screen and (max-width: 479px) {
-  .article-container .image-2-col {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  
-  
-}
+
 .image-2-col .image-container {
-  height: 60%;
+  width: 50%;
 }
 .image-2-col .image-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+@media screen and (max-width: 479px) {
+  .article-container .image-2-col {
+    flex-direction:column-reverse
+  }
+  .image-2-col .image-container {
+    width: 80%;
+    margin:0 auto;
+  }
+  
 }
 
 .list-4 {
@@ -1418,7 +1418,9 @@ body.light img.color {
   grid-template-columns: repeat(3,1fr);
   gap: 2rem;
   margin: 2rem 0;
+  padding-left: 0;
 }
+
 
 .list-5 li + li {
   margin:0;
@@ -1431,6 +1433,9 @@ body.light img.color {
   border-radius: 0.125rem;
   padding: 2rem 1rem;
   box-shadow: 0px 4px 4px color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2));;
+  background: var(--background);
+  color: var(--font-color);
+
 }
 
 .list-5 li:last-of-type {
@@ -1440,6 +1445,16 @@ body.light img.color {
 
 .list-5.alt li:last-of-type {
   grid-column: unset;
+}
+
+@media screen and (max-width: 479px) {
+  .list-5{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .list-5 li:last-of-type {
+    grid-column: unset;
+  }
 }
 
 
@@ -1478,7 +1493,8 @@ body.light img.color {
   .circuit-animation {
     order: 1;
     align-self: flex-end;
-    top: 6rem;
+    top: 10rem;
+    width: 100%;
   }
 
   .menu-wrapper {
@@ -1667,7 +1683,7 @@ body.light img.color {
   }
 
   .section-3 {
-    padding-top: 10rem;
+    padding-top: 12rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1813,7 +1829,7 @@ body.light img.color {
   display: flex;
   -moz-box-pack: end;
   justify-content: flex-end;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-stretch: semi-expanded;
   font-weight: 800;
 }
@@ -1963,3 +1979,43 @@ p + .floating-button {
   left: 1em;
 }
 
+@media screen and (max-width: 880px){
+
+  .main-home-cta {
+    height: 5.2rem;
+  }
+  
+  .main-home-cta .text-block-2 {
+    font-size: 1.5rem;
+  }
+  .div-block-3 {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 10rem;
+    display: flex;
+  }
+  .heading-4 {
+    font-size: 1.5rem;
+  }
+  .paragraph-3, .solutions-card-button {
+    opacity: 1!important;
+  }
+  .card-image img{
+    transform: unset !important;
+  }
+  .solutions-card.superlong {
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+  }
+
+
+  .solutions-home {
+    grid-template: "Blurb Blurb" 35rem
+                 "Solution-1 Solution-2" 35rem
+                 ". Solution-2" 35rem
+                 "Solution-3 Solution-3" 35rem
+                 "Solution-4 Solution-4" 35rem
+                 "Solution-5 Solution-5" 35rem
+                 / 1fr 1fr;
+  }
+}
