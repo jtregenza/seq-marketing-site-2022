@@ -17,6 +17,8 @@
   font-size: calc(0.7rem + ((1vw - 7.68px) * 0.7426));
 }
 
+
+
 .article-container p {margin-bottom: 1rem; max-width: 80ch;}
 
 .article-container h1, .article-container h2, .article-container h3, .article-container h4, .article-container h5 {
@@ -94,6 +96,12 @@ p {
   font-size: 1.125rem;
   font-weight: 400;
   text-decoration: none;
+}
+
+@media screen and (max-width: 479px) {
+  p, button, li, h4 {
+    font-size: 2rem;
+  }
 }
 
 a {
