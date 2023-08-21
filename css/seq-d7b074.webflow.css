@@ -2040,12 +2040,29 @@ p + .floating-button {
 
 @media screen and (max-width: 880px){
 
-  .main-home-cta {
+  .main-home-cta,
+  .popUpContact .form-button, .floating-button, .solutions-card-button {
     height: 5.2rem;
+  }
+
+  .modalOverlay {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph-3 {
+    font-size: 2rem;
+  }
+
+
+  input, label {
+    font-size: 2rem;
   }
   
   .main-home-cta .text-block-2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   .div-block-3 {
     flex-direction: column;
@@ -2054,6 +2071,10 @@ p + .floating-button {
     display: flex;
   }
   .heading-4 {
+    font-size: 2rem;
+  }
+
+  .heading-3 {
     font-size: 1.5rem;
   }
   .paragraph-3, .solutions-card-button {
@@ -2069,12 +2090,12 @@ p + .floating-button {
 
 
   .solutions-home {
-    grid-template: "Blurb Blurb" 35rem
-                 "Solution-1 Solution-2" 35rem
-                 ". Solution-2" 35rem
-                 "Solution-3 Solution-3" 35rem
-                 "Solution-4 Solution-4" 35rem
-                 "Solution-5 Solution-5" 35rem
+    grid-template: "Blurb Blurb" 60rem
+                 "Solution-1 Solution-2" 60rem
+                 ". Solution-2" 60rem
+                 "Solution-3 Solution-3" 60rem
+                 "Solution-4 Solution-4" 60rem
+                 "Solution-5 Solution-5" 60rem
                  / 1fr 1fr;
   }
 }
