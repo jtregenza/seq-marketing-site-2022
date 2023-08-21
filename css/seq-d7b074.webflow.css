@@ -1737,9 +1737,6 @@ body.light img.color {
     width: 100%;
   }
 
-  .text-block-2 {
-    font-size: .8rem;
-  }
 
   .section-3 {
     padding-top: 12rem;
@@ -2043,6 +2040,12 @@ p + .floating-button {
   .main-home-cta,
   .popUpContact .form-button, .floating-button, .solutions-card-button {
     height: 5.2rem;
+  }
+
+  .text-block-2 {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .modalOverlay {
