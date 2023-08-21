@@ -1250,7 +1250,12 @@ body.light img.color {
 }
 
 .list-2, .list-3 {
-  list-style-type: disc;
+  list-style-type: none;
+  padding: none;
+}
+
+.list-2 li, .list-3 li {
+  margin-bottom: 1rem;
 }
 
 .div-block-15, .div-block-16 {
@@ -1292,7 +1297,7 @@ body.light img.color {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
+  column-gap: 2rem;
   margin-top: 4rem;
 }
 
