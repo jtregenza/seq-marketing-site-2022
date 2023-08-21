@@ -2043,7 +2043,7 @@ p + .floating-button {
   }
 
   .text-block-2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
@@ -2053,7 +2053,7 @@ p + .floating-button {
     align-items: center;
   }
 
-  .paragraph-3 {
+  .paragraph-3, .paragraph-2, .text-block {
     font-size: 2rem;
   }
 
@@ -2064,8 +2064,8 @@ p + .floating-button {
   
   .main-home-cta .text-block-2 {
     font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   .div-block-3 {
     flex-direction: column;
@@ -2093,12 +2093,12 @@ p + .floating-button {
 
 
   .solutions-home {
-    grid-template: "Blurb Blurb" 60rem
-                 "Solution-1 Solution-2" 60rem
-                 ". Solution-2" 60rem
-                 "Solution-3 Solution-3" 60rem
-                 "Solution-4 Solution-4" 60rem
-                 "Solution-5 Solution-5" 60rem
+    grid-template: "Blurb Blurb" 65rem
+                 "Solution-1 Solution-2" 65rem
+                 ". Solution-2" 65rem
+                 "Solution-3 Solution-3" 65rem
+                 "Solution-4 Solution-4" 65rem
+                 "Solution-5 Solution-5" 65rem
                  / 1fr 1fr;
   }
 }
