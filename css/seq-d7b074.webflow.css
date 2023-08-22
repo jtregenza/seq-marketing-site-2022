@@ -915,7 +915,7 @@ ul, ol {
   color: #fff;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   position: absolute;
   transform: translate(0, -150%);
@@ -1579,23 +1579,23 @@ body.light img.color {
 
   .nav-menu-2 {
     width: 100%;
-    color: #fff;
+    /* color: #fff; */
     background-color: var(--background);
     transform: translate(0, -150%);
   }
 
   .nav-link {
-    color: #fff;
+    /* color: #fff; */
   }
 
   .nav-link-2 {
-    color: #fff;
+    /* color: #fff; */
     text-align: left;
     cursor: pointer;
   }
 
   .nav-link-3, .nav-link-4, .nav-link-5 {
-    color: #fff;
+    /* color: #fff; */
   }
 
   .footer-dark {
@@ -2093,7 +2093,7 @@ p + .floating-button {
 
 
   .solutions-home {
-    grid-template: "Blurb Blurb" 65rem
+    grid-template: "Blurb Blurb" 35rem
                  "Solution-1 Solution-2" 65rem
                  ". Solution-2" 65rem
                  "Solution-3 Solution-3" 65rem
