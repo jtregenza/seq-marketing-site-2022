@@ -1998,7 +1998,7 @@ p + .floating-button {
 .popUpContact input[type=email], .popUpContact input[type=text], .popUpContact textarea {
   color: #fff;
   font-family: inherit;
-  font-size: inherit;
+  /* font-size: inherit; */
   background-color: rgba(11,20,24,.8);
   width: 100%;
   padding: 1.8em 1em .8em 2.5em;
