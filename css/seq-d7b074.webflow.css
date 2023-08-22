@@ -1574,7 +1574,7 @@ body.light img.color {
   }
 
   .menu-button.w--open {
-    background-color: var(--background);
+    background-color: var(--font-color);
   }
 
   .nav-menu-2 {
