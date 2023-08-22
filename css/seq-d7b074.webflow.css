@@ -1721,6 +1721,9 @@ body.light img.color {
 }
 
 @media screen and (max-width: 479px) {
+  .footer-link, .title-small {
+    font-size: 2rem;
+  }
   .body {
     background-color: var(--background);
   }
