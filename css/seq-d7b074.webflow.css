@@ -1088,7 +1088,7 @@ body.light img.color {
   grid-column-gap: .25rem;
   grid-row-gap: .25rem;
   text-align: left;
-  border-left: 1px solid rgba(255, 255, 255, .7);
+  border-left: 1px solid var(--color-fade);
   flex-direction: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr;
@@ -1589,7 +1589,7 @@ body.light img.color {
   }
 
   .nav-link-2 {
-    /* color: #fff; */
+    color: var(--font-color);
     text-align: left;
     cursor: pointer;
   }
