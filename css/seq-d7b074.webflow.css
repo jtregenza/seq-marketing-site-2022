@@ -2039,6 +2039,9 @@ p + .floating-button {
 }
 
 @media screen and (max-width: 880px){
+  .popUpContact input[type=email], .popUpContact input[type=text], .popUpContact textarea {
+    font-size: 2rem;
+  }
 
   .main-home-cta,
   .popUpContact .form-button, .floating-button, .solutions-card-button {
