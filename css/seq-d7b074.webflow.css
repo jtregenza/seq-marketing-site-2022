@@ -1574,7 +1574,8 @@ body.light img.color {
   }
 
   .menu-button.w--open {
-    background-color: var(--font-color);
+    /* background-color: var(--font-color); */
+    filter: invert(100%);
   }
 
   .nav-menu-2 {
@@ -1595,7 +1596,7 @@ body.light img.color {
   }
 
   .nav-link-3, .nav-link-4, .nav-link-5 {
-    /* color: #fff; */
+    color: var(--font-color);
   }
 
   .footer-dark {
