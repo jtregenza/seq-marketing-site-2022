@@ -1575,7 +1575,7 @@ body.light img.color {
 
   .menu-button.w--open {
     /* background-color: var(--font-color); */
-    filter: invert(100%);
+    /* filter: invert(100%); */
   }
 
   .nav-menu-2 {
