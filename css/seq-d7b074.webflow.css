@@ -1578,6 +1578,10 @@ body.light img.color {
     /* filter: invert(100%); */
   }
 
+  body.light .w-icon-nav-menu {
+    filter: invert(100%);
+  }
+
   .nav-menu-2 {
     width: 100%;
     /* color: #fff; */
