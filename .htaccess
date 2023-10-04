@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    Redirect 301 https://seq.net.au/cctv-security-cameras/thermal-cameras/ https://seq.net.au/solutions/access-and-security-systems/thermal-cameras
+    Redirect 301 https://seq.net.au/contact-us/ https://seq.net.au/contact
+    Redirect 301 https://seq.net.au/interactive-projectors/ https://seq.net.au/solutions/audio-visual/interactive-projectors
+    Redirect 301 https://seq.net.au/electrical/communications/ https://seq.net.au/solutions/electrical/communication-systems
+    Redirect 301 https://seq.net.au/cctv-security-cameras/intercom-access-control/ https://seq.net.au/solutions/access-and-security-systems/intercom-and-security-solutions
+    Redirect 301 https://seq.net.au/cctv-security-cameras/ https://seq.net.au/solutions/access-and-security-systems/cctv-installation-services
+    Redirect 301 https://seq.net.au/antenna-installation/antenna-system-repair-services-brisbane/ https://seq.net.au/solutions/matv-antenna-satellite/antenna-installation-services
+    Redirect 301 https://seq.net.au/entrance-systems/ https://seq.net.au/solutions/entrance-systems
+    Redirect 301 https://seq.net.au/industrial-e-refurb/ https://seq.net.au/solutions/electrical/industrial-electronics
+    Redirect 301 https://seq.net.au/electrical/ https://seq.net.au/solutions/electrical
+    Redirect 301 https://seq.net.au/antenna-installation/antenna-system-repair-and-installation-redland-city/ https://seq.net.au/solutions/matv-antenna-satellite/antenna-installation-services
+    Redirect 301 https://seq.net.au/audio-visual/ https://seq.net.au/solutions/audio-visual
+    Redirect 301 https://seq.net.au/matv-antenna-satellite/matv/ https://seq.net.au/solutions/matv-antenna-satellite/matv-solutions
+    Redirect 301 https://seq.net.au/audio-visual/audio/ https://seq.net.au/solutions/audio-visual/audio-and-visual-solutions
+    Redirect 301 https://seq.net.au/valet-icentral/security/ https://seq.net.au/solutions/access-and-security-systems/access-control-systems
+    Redirect 301 https://seq.net.au/audio-visual/hearing-loop/ https://seq.net.au/solutions/audio-visual/hearing-loops
+    Redirect 301 https://seq.net.au/entrance-access/rapid-roller-doors-high-speed-doors/ https://seq.net.au/solutions/entrance-systems/rapid-roller-doors
+    Redirect 301 https://seq.net.au/entrance-access/high-impact-traffic-doors/ https://seq.net.au/solutions/entrance-systems/high-impact-traffic-doors
+    Redirect 301 https://seq.net.au/entrance-access/ https://seq.net.au/solutions/entrance-systems/entrance-access-systems
+    Redirect 301 https://seq.net.au/industrial-electronic-equipment-repair-and-refurbishment/ https://seq.net.au/solutions/electrical/industrial-electronics
+    Redirect 301 https://seq.net.au/matv-antenna-satellite/ https://seq.net.au/solutions/matv-antenna-satellite/antenna-satellite-services
+    Redirect 301 https://seq.net.au/valet-icentral/music-video-intercom/ https://seq.net.au/solutions/access-and-security-systems/music-and-video-intercom
+    Redirect 301 https://seq.net.au/matv-installation/ https://seq.net.au/solutions/matv-antenna-satellite/matv-installation
+
+    </IfModule>
