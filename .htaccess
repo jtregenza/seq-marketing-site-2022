@@ -23,5 +23,11 @@
     Redirect 301 https://seq.net.au/matv-antenna-satellite/ https://seq.net.au/solutions/matv-antenna-satellite/antenna-satellite-services
     Redirect 301 https://seq.net.au/valet-icentral/music-video-intercom/ https://seq.net.au/solutions/access-and-security-systems/music-and-video-intercom
     Redirect 301 https://seq.net.au/matv-installation/ https://seq.net.au/solutions/matv-antenna-satellite/matv-installation
-
+    Redirect 301 https://seq.net.au/industrial/ https://seq.net.au/solutions/electrical/industrial-electronics
+    Redirect 301 https://seq.net.au/industrial-e-refurb-prototypes/prototypes/ https://seq.net.au/solutions/electrical/industrial-electronics
+    Redirect 301 https://seq.net.au/cctv-electronic-security/intercom-access-control/  https://seq.net.au/solutions/access-and-security-systems/intercom-and-security-solutions
+    Redirect 301 https://seq.net.au/cctv-electronic-security/ https://seq.net.au/solutions/access-and-security-systems/cctv-installation-services
+    Redirect 301 https://seq.net.au/cctv-installation-brisbane/ https://seq.net.au/solutions/access-and-security-systems/cctv-installation-services
+    Redirect 301 https://seq.net.au/thermal-cameras/ https://seq.net.au/solutions/access-and-security-systems/thermal-cameras
+    Redirect 301 https://seq.net.au/2011/contact-us https://seq.net.au/contact
     </IfModule>
