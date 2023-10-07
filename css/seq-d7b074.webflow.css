@@ -308,7 +308,7 @@ body.light .menu-link.light img {
 }
 
 .div-block-5 {
-  background-image: url('../images/dot-graph.png');
+  background-image: url('https://res.cloudinary.com/dy4kfy1on/image/upload/f_auto,q_auto/SEQ/dot-graph');
   background-position: 0 45%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -322,7 +322,7 @@ body.light .menu-link.light img {
 }
 
 body.light .div-block-5 {
-  background-image: url('../images/dot-graph-dark.png');
+  background-image: url('https://res.cloudinary.com/dy4kfy1on/image/upload/f_auto,q_auto/seq/dot-graph-dark');
 }
 
 .heading {
