@@ -456,6 +456,16 @@ a:hover .text-block-2,
 .submenu .heading-2,
 .submenu h4 {
   color: white;
+  font-weight: 700;
+}
+
+.submenu-heading {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+    line-height: 1.2;
+    margin-top: 10px;
 }
 
 .submenu .child-group {
