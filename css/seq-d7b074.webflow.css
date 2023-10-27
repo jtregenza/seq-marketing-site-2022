@@ -1073,6 +1073,12 @@ ul, ol {
   line-height: 1.1;
 }
 
+@media screen and (max-width: 479px) {
+  .footer-copyright-center {
+    font-size: 1.1rem;
+  }
+}
+
 .image-6 {
   filter: invert();
   width: 1.5rem;
