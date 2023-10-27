@@ -14,7 +14,7 @@
   --font-color: var(--dark-font-color);
   --accent-color: var(--dark-accent-color);
   --color-fade: var(--dark-color-fade);
-  font-size: calc(0.7rem + ((1vw - 7.68px) * 0.7426));
+  font-size: calc(0.7rem + ((1vw - 6.68px) * 0.7426));
 }
 
 
