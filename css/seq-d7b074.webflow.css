@@ -708,6 +708,7 @@ a:hover .text-block-2,
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.1;
+  font-family: Inconsolata, monospace;
   text-transform: uppercase;
 }
 
