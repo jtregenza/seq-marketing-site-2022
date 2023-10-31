@@ -467,6 +467,7 @@ a:hover .text-block-2,
   font-size: 1.1rem;
     line-height: 1.2;
     margin-top: 10px;
+    font-family: Inconsolata, monospace;
 }
 
 .submenu .child-group {
