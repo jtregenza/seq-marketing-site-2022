@@ -457,6 +457,7 @@ a:hover .text-block-2,
 .submenu h4 {
   color: white;
   font-weight: 700;
+  font-family: Inconsolata, monospace;
 }
 
 .submenu-heading {
