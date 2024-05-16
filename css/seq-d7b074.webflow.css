@@ -1658,7 +1658,7 @@ body.light img.color {
   z-index: 3;
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  background-color: var(--dark-blue);
+  background-color: #0e2029;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: minmax(auto, 1fr);
