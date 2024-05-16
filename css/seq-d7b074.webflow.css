@@ -1501,9 +1501,7 @@ body.light img.color {
   display: grid;
 }
 
-/* .heading-18, .heading-19, .paragraph-19, .paragraph-20, .paragraph-21, .list-5, .paragraph-22, .list-6, .paragraph-23, .heading-20, .paragraph-24, .heading-21, .paragraph-25, .paragraph-26, .paragraph-27, .paragraph-28, .paragraph-29, .list-7 {
-  width: 60%;
-} */
+
 
 .list-5{
   display: grid;
@@ -1661,7 +1659,7 @@ body.light img.color {
   display: grid;
 }
 
-.heading-18, .heading-19, .paragraph-19, .paragraph-20, .paragraph-21, .list-5, .paragraph-22, .list-6, .paragraph-23, .heading-20, .paragraph-24, .heading-21, .paragraph-25, .paragraph-26, .paragraph-27, .paragraph-28, .paragraph-29, .list-7 {
+.heading-18, .heading-19, .paragraph-19, .paragraph-20, .paragraph-21,  .paragraph-22, .list-6, .paragraph-23, .heading-20, .paragraph-24, .heading-21, .paragraph-25, .paragraph-26, .paragraph-27, .paragraph-28, .paragraph-29, .list-7 {
   width: 60%;
 }
 
