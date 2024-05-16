@@ -1389,8 +1389,8 @@ body.light img.color {
 } */
 
 .div-block-19, .full-width {
-  background: var(--font-color);
-  color: var(--background);
+  background: var(--background);
+  color: var(--font-color);
   /* border-radius: 1rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
