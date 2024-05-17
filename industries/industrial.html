@@ -798,7 +798,7 @@ function highSVG(item) {
   const highlightedItems = document.querySelectorAll('.' + item );
 
 highlightedItems.forEach(function(userItem) {
-  userItem.style.stroke = "#EF4644!important";
+  userItem.getAttribute('stroke') = "#EF4644";
   userItem.style.filter = "drop-shadow(0 0 8px #EF4644)"
 });
 
