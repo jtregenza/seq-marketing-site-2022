@@ -3039,7 +3039,7 @@ p + .floating-button.center {
 }
 
 .floating-button:hover {
-  mix-blend-mode: color;
+  mix-blend-mode: lighten;
 }
 
 p + .floating-button {
