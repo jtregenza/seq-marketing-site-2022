@@ -3038,6 +3038,10 @@ p + .floating-button.center {
 	overflow: hidden;
 }
 
+.floating-button:hover {
+  mix-blend-mode: color;
+}
+
 p + .floating-button {
   margin-top: 2rem;
 }
