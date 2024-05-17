@@ -1165,6 +1165,10 @@ body.light img.color {
   margin: 0 auto;
 }
 
+p + .floating-button.center {
+  margin-top: 2rem;
+}
+
 .div-block-9 h2,
 .div-block-9 h4 {
   margin: 0; 
@@ -3018,7 +3022,7 @@ body.light img.color {
 	border: .125rem solid var(--accent-color);
   color: var(--font-color);
   background: var(--background);
-  mix-blend-mode: color;
+  /* mix-blend-mode: color; */
 	flex-direction: row;
 	flex: none;
   text-transform: uppercase;
