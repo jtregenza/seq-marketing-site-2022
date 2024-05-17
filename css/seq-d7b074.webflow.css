@@ -1161,6 +1161,10 @@ body.light img.color {
   margin-top: 0.5rem;
 }
 
+.floating-button.center {
+  margin: 0 auto;
+}
+
 .div-block-9 h2,
 .div-block-9 h4 {
   margin: 0; 
