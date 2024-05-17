@@ -2,7 +2,7 @@
 :root {
   
   --dark-bg: #0b1418;
-  --dark-font-color: var(--font-color);
+  --dark-font-color: #fff;
   --dark-accent-color: #ef4644;
   --dark-color-fade: rgba(255, 255, 255, .2);
   --light-bg: #fff;
@@ -2012,7 +2012,7 @@ body.light img.color {
 
 .udesly-faq-item {
   color: var(--font-color);
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--accent-color);
   padding: 16px 16px 0;
   transition: all .3s;
   display: block;
