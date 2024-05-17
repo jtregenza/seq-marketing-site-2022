@@ -3042,6 +3042,10 @@ p + .floating-button.center {
   mix-blend-mode: lighten;
 }
 
+.light .floating-button:hover {
+  mix-blend-mode: darken;
+}
+
 p + .floating-button {
   margin-top: 2rem;
 }
