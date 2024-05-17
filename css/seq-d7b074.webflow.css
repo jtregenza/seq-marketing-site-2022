@@ -2,7 +2,7 @@
 :root {
   
   --dark-bg: #0b1418;
-  --dark-font-color: #fff;
+  --dark-font-color: var(--font-color);
   --dark-accent-color: #ef4644;
   --dark-color-fade: rgba(255, 255, 255, .2);
   --light-bg: #fff;
@@ -602,7 +602,7 @@ a:hover .text-block-2,
 }
 
 .solutions-card {
-  color: #fff;
+  color: var(--font-color);
   background-color: #3c4346;
   flex-direction: column;
   justify-content: flex-start;
@@ -703,8 +703,8 @@ a:hover .text-block-2,
 
 .heading-3 {
   opacity: 1;
-  color: #fff;
-  -webkit-text-stroke-color: #fff;
+  color: var(--font-color);
+  -webkit-text-stroke-color: var(--font-color);
   flex: none;
   margin-bottom: 0;
   font-size: 1rem;
@@ -926,7 +926,7 @@ ul, ol {
 }
 
 .nav-menu-2 {
-  color: #fff;
+  color: var(--font-color);
   flex-direction: column;
   align-items: flex-start;
   font-size: 2rem;
@@ -936,7 +936,7 @@ ul, ol {
 }
 
 .nav-link {
-  color: #fff;
+  color: var(--font-color);
 }
 
 .nav-link-2 {
@@ -1799,7 +1799,7 @@ body.light img.color {
 }
 
 .udesly-paragraph-medium {
-  color: #fff;
+  color: var(--font-color);
   text-align: left;
   font-size: 16px;
   font-weight: 500;
@@ -1807,7 +1807,7 @@ body.light img.color {
 }
 
 .udesly-paragraph-medium.udesly-text-color-neutral-500 {
-  color: #fff;
+  color: var(--font-color);
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -1941,18 +1941,18 @@ body.light img.color {
 }
 
 .udesly-span-black {
-  color: #fff;
+  color: var(--font-color);
 }
 
 .udesly-paragraph-small {
-  color: #fff;
+  color: var(--font-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
 
 .udeslylist-item {
-  color: #fff;
+  color: var(--font-color);
   margin-bottom: 4px;
 }
 
@@ -1969,7 +1969,7 @@ body.light img.color {
 }
 
 .udesly-tab-content {
-  color: #fff;
+  color: var(--font-color);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1988,7 +1988,7 @@ body.light img.color {
 }
 
 .udesly-faq-title {
-  color: #fff;
+  color: var(--font-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -2011,7 +2011,7 @@ body.light img.color {
 }
 
 .udesly-faq-item {
-  color: #fff;
+  color: var(--font-color);
   border-bottom: 1px solid #e6e6e6;
   padding: 16px 16px 0;
   transition: all .3s;
@@ -2032,7 +2032,7 @@ body.light img.color {
 }
 
 .udesly-button {
-  color: #fff;
+  color: var(--font-color);
   background-color: #171717;
   border-radius: 6px;
   flex: none;
@@ -2192,7 +2192,7 @@ body.light img.color {
 }
 
 .udesly-button-2 {
-  color: #fff;
+  color: var(--font-color);
   background-color: #171717;
   border-radius: 6px;
   flex: none;
@@ -2382,7 +2382,7 @@ body.light img.color {
 }
 
 .udesly-section {
-  background-color: #fff;
+  background-color: var(--font-color);
   padding: 50px 5%;
   position: relative;
 }
@@ -2566,13 +2566,13 @@ body.light img.color {
 
   .nav-menu-2 {
     width: 100%;
-    /* color: #fff; */
+    /* color: var(--font-color); */
     background-color: var(--background);
     transform: translate(0, -150%);
   }
 
   .nav-link {
-    /* color: #fff; */
+    /* color: var(--font-color); */
   }
 
   .nav-link-2 {
@@ -3088,7 +3088,7 @@ p + .floating-button {
 
 
 .popUpContact input[type=email], .popUpContact input[type=text], .popUpContact textarea {
-  color: #fff;
+  color: var(--font-color);
   font-family: inherit;
   /* font-size: inherit; */
   background-color: rgba(11,20,24,.8);
