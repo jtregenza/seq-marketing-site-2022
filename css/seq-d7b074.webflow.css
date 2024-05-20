@@ -480,7 +480,7 @@ a:hover .text-block-2,
 }
 
 .submenu-links {
-  padding: .5rem 1rem;
+  padding: .5rem 0.75rem;
   text-decoration: none;
 }
 
@@ -917,6 +917,7 @@ ul, ol {
   background-color: rgba(0, 0, 0, 0);
   justify-content: space-between;
   align-items: center;
+  z-index: 4;
   display: flex;
 }
 
@@ -1338,6 +1339,7 @@ p + .floating-button.center {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
   column-gap: 2rem;
   margin-top: 4rem;
 }
@@ -1512,8 +1514,10 @@ p + .floating-button.center {
 
 
 .list-5{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   margin: 2rem 0;
   padding-left: 0;
@@ -1525,6 +1529,7 @@ p + .floating-button.center {
 }
 
 .list-5 li {
+  max-width: 15rem;
   text-align: center;
   border: 1px solid;
   border-color: color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2));
@@ -2556,6 +2561,7 @@ p + .floating-button.center {
 
   .navbar-2 {
     padding-left: 2rem;
+    z-index: 5;
   }
 
   .menu-button {
@@ -3216,3 +3222,110 @@ p + .floating-button {
                  / 1fr 1fr;
   }
 }
+
+
+
+.complex {
+  overflow: hidden;
+  width: 100%;
+  }
+  
+  .diagram-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding: 2rem;
+  }
+  
+  .col-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:1;
+  grid-row-end:-1;
+  z-index: 1;
+  }
+  .col-2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start:1;
+  grid-row-end:-1;
+  z-index: 1;
+  text-align: right;
+  }
+  .complex {
+  grid-column-start: 1;
+  grid-column-end: 5;
+    grid-row-start:1;
+  grid-row-end:-1;
+  z-index: 0;
+  }
+  
+  svg.complex path {
+  stroke-width: 1.5;
+  }
+  
+  .block {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  }
+  
+  .block + .block {
+  margin-top: 1rem;
+  }
+  
+  .block h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-family: Inconsolata, monospace;
+  }
+  
+  .block p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  }
+  
+  .number {
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center center;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #227198;
+  padding: 0.25rem;
+  line-height: 1;
+  border-radius: 100%;
+  border: 0.125rem solid;
+  }
+  
+  path.cctv:hover,
+  path.signage:hover,
+  path.intercom:hover,
+  path.entrance-systems:hover,
+  path.rollerdoors:hover{
+  stroke: #EF4644; 
+  filter: drop-shadow(0 0 8px #EF4644);
+  }
+
+  .hori {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hori img {
+   height: 1.5rem;
+    object-fit: contain;
+  }
+
+  .industry-menu .paragraph {
+    font-size: 0.7rem;
+  }
