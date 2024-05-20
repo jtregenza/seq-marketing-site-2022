@@ -1598,7 +1598,7 @@ p + .floating-button.center {
 }
 
 .text-span-5 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .heading-12, .paragraph-7 {
@@ -1606,7 +1606,7 @@ p + .floating-button.center {
 }
 
 .text-span-6, .text-span-7 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .paragraph-8, .paragraph-9, .paragraph-10 {
@@ -1622,11 +1622,11 @@ p + .floating-button.center {
 }
 
 .text-span-8 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .paragraph-11, .heading-16, .paragraph-12, .paragraph-13, .heading-17, .paragraph-14 {
-  width: 60%;
+  width: 80%;
 }
 
 .paragraph-15 {
@@ -1644,7 +1644,7 @@ p + .floating-button.center {
 }
 
 .text-span-9 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .div-block-18-copy {
@@ -1907,7 +1907,7 @@ p + .floating-button.center {
 }
 
 .industry-card-button {
-  border: .125rem solid var(--red);
+  border: .125rem solid var(--accent-color);
   flex-direction: row;
   flex: none;
   align-self: flex-start;
@@ -1928,7 +1928,7 @@ p + .floating-button.center {
 }
 
 .text-span-10, .text-span-11 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .image-12 {
@@ -2435,7 +2435,7 @@ p + .floating-button.center {
 }
 
 .text-span-12, .text-span-13 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .paragraph-34 {
@@ -2450,7 +2450,7 @@ p + .floating-button.center {
 }
 
 .text-span-14, .text-span-15 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .udesly-feature-copy {
@@ -2517,7 +2517,7 @@ p + .floating-button.center {
 }
 
 .text-span-16 {
-  color: var(--red);
+  color: var(--accent-color);
 }
 
 .heading-22-copy {
