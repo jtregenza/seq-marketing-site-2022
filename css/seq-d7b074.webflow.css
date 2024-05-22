@@ -2719,6 +2719,7 @@ p + .floating-button.center {
   .udesly-grid-two-column {
     grid-row-gap: 40px;
     grid-template-columns: 1fr;
+    align-items: center;
   }
 
   .aged-care-industry-diagram {
