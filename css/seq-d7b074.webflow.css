@@ -2086,6 +2086,7 @@ p + .floating-button.center {
   grid-template-columns: 1fr 1fr;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  align-items: center;
 }
 
 .paragraph-32 {
@@ -2719,7 +2720,6 @@ p + .floating-button.center {
   .udesly-grid-two-column {
     grid-row-gap: 40px;
     grid-template-columns: 1fr;
-    align-items: center;
   }
 
   .aged-care-industry-diagram {
