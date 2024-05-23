@@ -2350,6 +2350,9 @@ p + .floating-button.center {
   max-height: 224px;
   padding-left: 24px;
   padding-right: 24px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
   position: absolute;
   top: 0%;
   bottom: auto;
