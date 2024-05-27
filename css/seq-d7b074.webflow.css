@@ -2367,7 +2367,7 @@ p + .floating-button.center {
   width: 100%;
   max-width: 386px;
   height: 100%;
-  padding-top: 40%;
+  padding-top: 8rem;
   transition: all .25s ease-out;
   display: flex;
   position: relative;
