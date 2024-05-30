@@ -1537,7 +1537,7 @@ p + .floating-button.center {
   padding: 2rem 1rem;
   /* box-shadow: 0px 4px 4px color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2)); */
   background: var(--font-color);
-  color: var(--background-color);
+  color: var(--background);
   border-bottom: 0.25rem solid var(--accent-color);
 
 }
