@@ -1514,7 +1514,7 @@ p + .floating-button.center {
 
 
 .list-5{
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -1530,6 +1530,9 @@ p + .floating-button.center {
 
 .list-5 li {
   max-width: 15rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
   text-align: center;
   border: 1px solid;
   border-color: color-mix(in srgb, var(--color-fade) 4%, rgba(0,0,0,0.2));
