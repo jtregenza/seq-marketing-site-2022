@@ -15,6 +15,7 @@
   --accent-color: var(--dark-accent-color);
   --color-fade: var(--dark-color-fade);
   font-size: calc(0.7rem + ((1vw - 6.68px) * 0.7426));
+  --font-family-heading: Inconsolata, monospace;
 }
 
 
@@ -3351,4 +3352,78 @@ p + .floating-button {
 
   .industry-menu .paragraph {
     font-size: 0.7rem;
+  }
+
+
+  .industries-home {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr; 
+    gap: 4rem;
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .industries-home {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: 1fr; 
+      gap: 2rem;
+    }
+  }
+
+  .industries-home .industry-intro p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .industry-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .industry-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: unset;
+      gap: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  .industry-card {
+    border: 1px solid var(--font-color);
+    font-family: var(--font-family-heading);
+  }
+
+  .card-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid var(--font-color);
+  }
+
+  .industry-card:hover {
+    background: var(--accent-color);
+    color: var(--background);
+  }
+
+
+  .card-heading img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    object-fit: contain;
+    border-right: 1px solid var(--font-color);
+    background: var(--background);
+  }
+
+  .industry-card p {
+    padding: 1rem;
+    font-family: var(--font-family-heading);
   }
