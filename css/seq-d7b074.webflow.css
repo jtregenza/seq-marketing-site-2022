@@ -2382,8 +2382,14 @@ p + .floating-button.center {
 
 .udesly-card-v1-wrapper.no-image {
   padding-top: 1rem;
+  /* border-top: 0.5rem solid var(--accent-color); */
+}
+
+
+.udesly-card-v1-wrapper.no-image .udesly-card-container {
   border-top: 0.5rem solid var(--accent-color);
 }
+
 
 .udesly-card-v1-wrapper:hover {
   transform: translate(0, -9px);
