@@ -6,160 +6,316 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
+
 <url>
   <loc>https://seq.net.au/</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/electrical</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/entrance-systems</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/about-us</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/contact</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems/intercom-and-security-solutions</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems/access-control-systems</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems/cctv-installation-services</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems/music-and-video-intercom</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/access-and-security-systems/thermal-cameras</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual/audio-and-visual-solutions</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual/home-theatre-wiring-and-installation</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual/interactive-projectors</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual/hearing-loops</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/audio-visual/assisted-vision</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/electrical/communication-systems</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://seq.net.au/solutions/electrical/industrial-electronics</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/entrance-systems/entrance-access-systems</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/entrance-systems/high-impact-traffic-doors</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/entrance-systems/pvc-doors</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/entrance-systems/rapid-roller-doors</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite/matv-solutions</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite/antenna-solutions</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite/antenna-satellite-services</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite/matv-installation</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/solutions/matv-antenna-satellite/antenna-installation-services</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/cctv-for-retirement-villages</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/matv-for-aged-care-facilities</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/hearing-loops-for-aged-care</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/entrance-systems-for-retirement-villages</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/access-and-security-systems-for-aged-care</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/electrical-solutions-for-aged-care-facilities</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/aged-care-pa-systems</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/assisted-vision-for-aged-care-villages</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/interactive-solutions-for-lectures-and-classrooms</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/access-and-security-systems-for-your-school-or-university</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/hearing-loops-for-classrooms-and-lecture-halls</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/pa-systems-for-schools-and-university</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/cctv-security-for-schools-and-university</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/education/electrical-solutions-for-schools-and-university</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/access-and-security-systems-for-home-and-office</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/audio-visual-solutions-for-home-and-office</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/cctv-security-for-your-home-and-office</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/matv-and-antenna-services-for-commercial-properties</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/entrance-systems-for-home-and-office</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/access-systems-for-industrial-sites</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/pa-systems-for-work-sites</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/entrance-systems-for-industrial-sites-and-warehouses</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/electrical-services-for-industrial-sites</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/industrial-site-intercom-systems</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/industrial/cctv-security-for-industrial-sites</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/terms-conditions</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seq.net.au/privacy-policy</loc>
-  <lastmod>2023-10-04T02:47:03+00:00</lastmod>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/commercial-and-residential/electrical-solutions-for-your-home-and-office</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/solutions/electrical/industrial-electronics</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://seq.net.au/industries/aged-care/maintenance-and-repairs-for-retirement-living</loc>
+  <lastmod>2024-06-03T03:31:33+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
