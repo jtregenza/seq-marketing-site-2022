@@ -718,6 +718,10 @@ body.light .solutions-card {
   text-transform: uppercase;
 }
 
+
+body.light .solutions-card .heading-3 {
+  color: var(--light-bg);
+}
 .heading-3.alt {
   color: #000;
 }
