@@ -611,6 +611,9 @@ a:hover .text-block-2,
   padding: 3rem;
   display: flex;
 }
+body.light .solutions-card {
+  color: var(--background);
+}
 
 .solutions-card .text-block-2 {
   position: relative;
